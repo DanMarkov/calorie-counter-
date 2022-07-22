@@ -17,7 +17,7 @@ let onInput = test => {
   const resetButton = document.getElementById('resetButton');
   if(age.value && height.value && weight.value){
       calcButton.disabled = false;
-  }else{
+  }else{ 
       calcButton.disabled = true;
   }
   if(age.value || height.value || weight.value){
